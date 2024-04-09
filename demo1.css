@@ -1,0 +1,47 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* 将文本居中 */
+}
+
+header, nav, section, footer {
+    width: 80%; /* 设置内容宽度 */
+    margin: 0 auto; /* 居中布局 */
+}
+
+header {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 80%; /* 设置底部宽度 */
+}
